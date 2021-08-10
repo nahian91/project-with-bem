@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project with BEM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header__logo">
+                <a class="header__logo-link" href="">
+                    <img  class="header__logo-img" src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header__menu">
+                <ul class="header__menu-box">
+                    <li class="header__menu-item"><a class="header__menu-link" href="">Home</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="">About</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="">Services</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="">Gallery</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <img class="banner__img" src="img/bannar.jpg" alt="">
+        </div>
+        <div class="service">
+            <h4 class="service__title">exlusive service</h4>
+            <div class="service__main">
+                <div class="service__single">
+                    <h4 class="service__heading">service title</h4>
+                    <img src="img/service1.jpg" alt="" class="service__img">
+                    <p class="service__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, voluptatum minus quis accusantium a eaque repellat vitae quidem corporis velit</p>
+                    <a href="" class="service__link btn btn--primary">read more</a>
+                </div>
+                <div class="service__single">
+                    <h4 class="service__heading">service title</h4>
+                    <img src="img/service2.jpg" alt="" class="service__img">
+                    <p class="service__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, voluptatum minus quis accusantium a eaque repellat vitae quidem corporis velit</p>
+                    <a href="" class="service__link btn btn--primary">read more</a>
+                </div>
+                <div class="service__single">
+                    <h4 class="service__heading">service title</h4>
+                    <img src="img/service3.jpg" alt="" class="service__img">
+                    <p class="service__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, voluptatum minus quis accusantium a eaque repellat vitae quidem corporis velit</p>
+                    <a href="" class="service__link btn btn--primary">read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <div class="about__content">
+                <h4 class="box-title">about us</h4>
+                <p class="about__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum architecto quaerat praesentium impedit. Aut libero, magnam non totam consectetur velit reprehenderit soluta officiis minima tempora.</p>
+                <p class="about__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum architecto quaerat praesentium impedit. Aut libero, magnam non totam consectetur velit reprehenderit soluta officiis minima tempora.</p>
+                <a href="" class="about__link btn btn--primary">read more</a>
+            </div>
+            <div class="about__menu">
+                <h4 class="box-title">sidebar menu</h4>
+                <ul class="about__menu-box">
+                    <li class="about__menu-item"><a class="about__menu-link" href="">Home</a></li>
+                    <li class="about__menu-item"><a class="about__menu-link" href="">About</a></li>
+                    <li class="about__menu-item"><a class="about__menu-link" href="">Services</a></li>
+                    <li class="about__menu-item"><a class="about__menu-link" href="">Gallery</a></li>
+                    <li class="about__menu-item"><a class="about__menu-link" href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="contact__form">
+                <h4 class="box-title">get in touch</h4>
+                <form>
+                    <input class="contact__input" type="text" placeholder="Name">
+                    <input class="contact__input" type="text" placeholder="Email">
+                    <input class="contact__input" type="text" placeholder="Subject">
+                    <textarea class="contact__message" placeholder="Message"></textarea>
+                    <input class="contact__submit" type="submit" value="Send">
+                </form>
+            </div>
+            <div class="contact__address">
+                <h4 class="box-title">our address</h4>
+                <ul class="contact__address-box">
+                    <li class="contact__address-list">Address: Sydney, Australia</li>
+                    <li class="contact__address-list">Email: info@simple.com</li>
+                    <li class="contact__address-list">Phone: 11223344</li>
+                    <li class="contact__address-list">Web: www.simple.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="map">
+            <iframe class="map__iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d848283.3952925277!2d150.931975!3d-33.848244!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2sbd!4v1628631093774!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="footer">
+            <p class="footer__text">
+                &copy; 2021 All rights reserved.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
